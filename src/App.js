@@ -46,7 +46,7 @@ class App extends Component {
         updatedSequence.push(this.getRandomNum());
         const count = updatedSequence.length;
 
-        if(count == 6){
+        if(count == 21){
           this.setState({ 
               playerSequence: [],
               padsEnabled: false,
