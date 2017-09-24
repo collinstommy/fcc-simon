@@ -1,0 +1,81 @@
+@import url(https://fonts.googleapis.com/css?family=Alfa+Slab+One|Open+Sans+Condensed:300);
+
+.container{
+  width: 700px;
+}
+
+.quarter {
+    height:290px;
+    width: 290px;  
+    position: relative;
+    border: 10px solid black;
+    float: left;
+    margin: 0;
+    z-index: 10;
+}
+.green-pad {
+    background-color: green;
+    border-radius: 300px 0 0 0;
+    border-top: 20px solid black;
+    border-left: 20px solid black;
+}
+
+.green-pad.selected{
+  background-color: lightgreen;
+}
+
+.red-pad {
+    background-color: red;
+    border-radius: 0 300px 0 0;
+    border-top: 20px solid black;
+    border-right: 20px solid black;
+}
+
+.red-pad.selected{
+  background-color: lightcoral;
+}
+
+.yellow-pad {
+    background-color: yellow;
+    border-radius: 0 0 0 300px;
+    border-bottom: 20px solid black;
+    border-left: 20px solid black;
+}
+
+.yellow-pad.selected{
+  background-color: lightgoldenrodyellow;
+}
+
+.blue-pad {
+    background-color: blue;
+    border-radius: 0 0 300px 0;
+    border-bottom: 20px solid black;
+    border-right: 20px solid black;
+}
+
+.blue-pad.selected{
+  background-color: lightblue;
+}
+
+.control-panel {
+    background-color:white;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 11;
+    top: 140px;
+    left: 140px;
+    width: 300px;
+    height: 300px;
+    border-radius: 300px;
+    border: 15px solid black;
+    color: black;
+    flex-direction: column;
+}
+
+
+.count{
+  font-family: 'Orbitron', sans-serif;
+  color: 'red';
+}
